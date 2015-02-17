@@ -1,0 +1,4 @@
+useDynLib(QUBIC)
+exportPattern("^[[:alpha:]]+")
+importFrom(Rcpp, evalCpp)
+export(qubic, getBC)
